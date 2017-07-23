@@ -18,6 +18,7 @@
 
         <ul class="nav navbar-nav navbar-right">            
             <li><a href="/posts">Blog</a></li>
+            <li><a href="/posts/create">Create Post</a></li>
             <li><a href="/login">Login</a></li>
             <li><a href="/register">Register</a></li>
             </ul>
