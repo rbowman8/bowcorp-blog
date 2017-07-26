@@ -25,3 +25,7 @@ Route::get('/contact', 'PagesController@contact');
 Route::resource('posts', 'PostsController');  // creates crud functions
 
 
+
+Auth::routes();
+
+Route::get('/dashboard', 'DashboardController@index');
